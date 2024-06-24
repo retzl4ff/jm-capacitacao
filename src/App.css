@@ -164,6 +164,49 @@ body {
   object-fit: contain;
 }
 
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(236, 236, 236);
+  padding: 6rem 0;
+  font-size: 1.25rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+}
+
+
+.about>*{
+  padding: 0;
+  margin: 0;
+}
+.row {
+  display: flex;
+  width: 100%;
+  max-width: 1500px;
+}
+.title {
+  align-self: flex-start;
+  width: 100%;
+  color: #0b005a
+}
+.asideTxt {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-right: 5rem;
+}
+
+.asideTxt>p {
+  margin: 0;
+}
+
+.asideImg {
+  height: 100%;
+  object-fit: contain;
+}
+
 .footer {
   background-color: #023c69;
   color: white;
