@@ -18,9 +18,9 @@ function App() {
       <FloatingWhatsApp
           phoneNumber='4734266611'
           accountName='JM Capacitação'
-          avatar='/logo.png'
+          avatar='/logo-empresa.png'
           statusMessage=''
-          chatMessage=''//Preencher com uma mensagem automática
+          chatMessage='Olá, como posso ajudar?'
           placeholder='Mensagem'
           allowClickAway='true'
           messageDelay='1'
