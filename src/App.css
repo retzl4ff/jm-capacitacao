@@ -244,7 +244,6 @@ body {
   text-align: center;
 }
 
-
 @media screen and (max-width: 600px) {
   .row {
     flex-direction: column; 
@@ -253,4 +252,50 @@ body {
   .asideTxt {
     padding: 0 0 1.25rem 0;
   }
+}
+
+.location {
+  background-color: rgb(236, 236, 236);
+  text-align: center;
+  padding: 50px;
+  color: #0b005a;
+}
+
+.location h2 {
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.location p {
+  font-size: 1.28rem;
+}
+
+.location iframe {
+  margin-top: 20px;
+}
+
+.contact {
+  background-color: rgb(236, 236, 236);
+  text-align: center;
+  padding: 10px;
+  color: #0b005a;
+}
+
+.contact h2 {
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.contact p {
+  margin: 10px 0;
+  font-size: 1.28rem;
+}
+
+.contact a {
+  color: #023c69;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
 }
