@@ -2,10 +2,14 @@ import './App.css';
 import Footer from './footer';
 import Home from './home';
 import NavBar from './navbar';
+
 import About from './About';
 import Location from './Location';
 import Contact from './Contact';
 import { FloatingWhatsApp } from 'react-floating-whatsapp'; 
+
+import Servicos from './Servicos';
+
 
 function App() {
   return (
@@ -13,6 +17,7 @@ function App() {
       <NavBar />
       <Home />
       <About />
+
 
 
       <Location />
@@ -28,6 +33,9 @@ function App() {
           messageDelay='1'
           notificationSound='true'
       />
+
+      <Servicos />
+
       <Footer />
     </div>
   );
