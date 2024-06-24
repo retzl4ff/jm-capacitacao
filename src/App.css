@@ -170,7 +170,7 @@ body {
   justify-content: center;
   flex-direction: column;
   background-color: rgb(236, 236, 236);
-  padding: 6rem 0;
+  padding: 6rem 2rem;
   font-size: 1.25rem;
   font-family: 'Poppins', sans-serif;
   text-align: justify;
@@ -242,4 +242,15 @@ body {
 
 .footer p {
   text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column; 
+  }
+
+  .asideTxt {
+    padding: 0 0 1.25rem 0;
+  }
 }
