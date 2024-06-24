@@ -2,6 +2,7 @@ import './App.css';
 import Footer from './footer';
 import Home from './home';
 import NavBar from './navbar';
+import Servicos from './Servicos';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Home />
 
 
-
+      <Servicos />
       <Footer />
     </div>
   );
