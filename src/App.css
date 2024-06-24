@@ -200,3 +200,38 @@ body {
 .footer p {
   text-align: center;
 }
+
+.location {
+  text-align: center;
+  margin: 20px;
+}
+
+.location h2 {
+  margin-bottom: 20px;
+}
+
+.location iframe {
+  margin-bottom: 20px;
+}
+
+.contact {
+  text-align: center;
+  margin: 20px;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+.contact p {
+  margin: 10px 0;
+}
+
+.contact a {
+  color: #023c69;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
