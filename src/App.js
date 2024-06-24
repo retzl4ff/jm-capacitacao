@@ -2,6 +2,7 @@ import './App.css';
 import Footer from './footer';
 import Home from './home';
 import NavBar from './navbar';
+import About from './About';
 import Location from './Location';
 import Contact from './Contact';
 import { FloatingWhatsApp } from 'react-floating-whatsapp'; 
@@ -11,6 +12,7 @@ function App() {
     <div>
       <NavBar />
       <Home />
+      <About />
 
 
       <Location />
